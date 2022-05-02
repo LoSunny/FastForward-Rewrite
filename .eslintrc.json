@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base"
+  ],
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/no-webpack-loader-syntax": 0,
+    "no-param-reassign": 0,
+    "consistent-return": 0,
+    "curly": [
+      2,
+      "multi"
+    ],
+    "max-len": 1
+  }
+}
